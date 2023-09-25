@@ -1,9 +1,8 @@
-name: dotnet package
-
+name: Build and Script
 on:
   push:
     branches:
-      - '*'
+      - main
 
 jobs:
   build:
