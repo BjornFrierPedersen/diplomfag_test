@@ -1,0 +1,15 @@
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\bin\Debug\net7.0\Uge 1 Opgave.exe
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\bin\Debug\net7.0\Uge 1 Opgave.deps.json
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\bin\Debug\net7.0\Uge 1 Opgave.runtimeconfig.json
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\bin\Debug\net7.0\Uge 1 Opgave.dll
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\bin\Debug\net7.0\Uge 1 Opgave.pdb
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.csproj.AssemblyReference.cache
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.AssemblyInfoInputs.cache
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.AssemblyInfo.cs
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.csproj.CoreCompileInputs.cache
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.dll
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\refint\Uge 1 Opgave.dll
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.pdb
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\Uge 1 Opgave.genruntimeconfig.cache
+C:\Users\bjofr\RiderProjects\Diplom_Test_Opgave\Uge 1 Opgave\obj\Debug\net7.0\ref\Uge 1 Opgave.dll

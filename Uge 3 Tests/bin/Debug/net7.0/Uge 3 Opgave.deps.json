@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Uge 3 Opgave/1.0.0": {
+        "runtime": {
+          "Uge 3 Opgave.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Uge 3 Opgave/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
