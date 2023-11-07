@@ -22,7 +22,7 @@ public class Book {
     }
 
     public int CalculateReadingTimeInMinutes => 
-        NumberOfPages * NumberOfWordsPerPage / 238; // 238 wpm is the average reading speed
+        NumberOfPages * NumberOfWordsPerPage / 238; // The average reading speed
 
     public void BorrowBook() {
         if (!IsBorrowed) {

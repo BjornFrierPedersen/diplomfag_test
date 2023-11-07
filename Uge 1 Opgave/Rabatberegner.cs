@@ -1,5 +1,6 @@
+namespace ConsoleApp1;
+
 public class Rabatberegner {
-    static void Main(string[] args) { }
     public double GetPrisEfterRabat(int antalVarer, double stykPris) {
         double bruttoPris = antalVarer * stykPris;
         if (bruttoPris > 1000 && antalVarer < 10) {

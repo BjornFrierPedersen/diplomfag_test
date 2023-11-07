@@ -149,4 +149,56 @@ public class BookTest
         Assert.Equal(1, ratingBefore);
         Assert.Equal(3, ratingAfter);
     }
+
+    [Fact]
+    public void When_creating_a_set_of_books_and_borrowing()
+    {
+        // Arrange
+        var books = new List<Book>
+        {
+            new Book("The Subtle Art of Not Giving a F*ck", "Mark Manson", 224, 260, "Self help"),
+            new Book("Harry Potter and The Sorceres Stone", "J. K. Rowling", 223, 345, "Fantasy"),
+            new Book("Harry Potter and The Chamber of Secrets", "J. K. Rowling", 251, 339, "Fantasy"),
+            new Book("Harry Potter and The Prisoner of Azkaban", "J. K. Rowling", 317, 338, "Fantasy"),
+            new Book("Harry Potter and The Goblet of Fire", "J. K. Rowling", 636, 299, "Fantasy"),
+        };
+        books.ForEach(book => book.BorrowBook());
+
+    }
+    
+    [Fact]
+    public void TestBookLifecycleIntegration()
+    {
+        // Arrange
+        var title = "Sample Book";
+        var author = "John Doe";
+        var numberOfPages = 300;
+        var numberOfWordsPerPage = 250;
+        var genre = "Fiction";
+
+        var book = new Book(title, author, numberOfPages, numberOfWordsPerPage, genre);
+
+        // Act
+        book.BorrowBook();
+        var borrowStatus = book.IsBorrowed;
+        book.ReturnBook();
+        var returnStatus = !book.IsBorrowed;
+
+        var ratingStatus = book.RateBook(4.5); // Rate the book with a valid rating
+
+        // Assert
+        Assert.Multiple(() =>
+        {
+            Assert.True(borrowStatus, "Book should be marked as borrowed.");
+            Assert.True(returnStatus, "Book should be marked as returned.");
+            Assert.True(ratingStatus, "Rating the book should be successful.");
+
+            Assert.Equal(title, book.Title); // Title should match
+            Assert.Equal(author, book.Author); // Author should match
+            Assert.Equal(numberOfPages, book.NumberOfPages); // Number of pages should match
+            Assert.Equal(numberOfWordsPerPage, book.NumberOfWordsPerPage); // Words per page should match
+            Assert.Equal(genre, book.Genre); // Genre should match
+            Assert.Equal(4.5, book.Rating, 0.001); // Rating should match
+        });
+    }
 }
