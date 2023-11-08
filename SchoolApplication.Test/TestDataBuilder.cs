@@ -15,7 +15,6 @@ public class TestDataBuilder
     }
 
     public void CleanDatabase() => _repository.CleanDatabase();
-    
 
     public void SeedDefaultData()
     {
