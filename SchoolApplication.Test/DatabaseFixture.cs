@@ -11,6 +11,7 @@ public class DatabaseFixture : IDisposable
     public DatabaseFixture()
     {
         SchoolDbContext = new SchoolDbContext();
+        SchoolDbContext.Database.EnsureCreated();
         Builder = new TestDataBuilder(SchoolDbContext);
         
         // We clear the data from the previously run test
