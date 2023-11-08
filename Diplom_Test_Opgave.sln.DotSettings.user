@@ -14,5 +14,6 @@
     &lt;TestId&gt;xUnit::EC548ED4-2C49-422F-849B-034F82302939::net7.0::SchoolApplication.Test.StudentTest.Check_that_student_is_created_when_given_valid_input&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EC548ED4-2C49-422F-849B-034F82302939::net7.0::SchoolApplication.Test.CourseTest.Check_that_course_is_created_when_given_valid_input&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EC548ED4-2C49-422F-849B-034F82302939::net7.0::SchoolApplication.Test.EnrollmentTest.Check_that_enrollment_is_created_when_given_valid_input&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC548ED4-2C49-422F-849B-034F82302939::net7.0::SchoolApplication.Test.EnrollmentTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

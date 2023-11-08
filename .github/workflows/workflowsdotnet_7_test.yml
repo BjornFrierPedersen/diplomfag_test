@@ -7,10 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet-version: [ '7.0.x' ]
+        dotnet-version: [ '7.0.x' ]    
+  docker:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
+      - name: Start postgres container
+        run: docker-compose -f docker-compose.yml up -d
       - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
         uses: actions/setup-dotnet@v3
         with:
@@ -21,3 +26,5 @@ jobs:
         run: dotnet build --configuration Release --no-restore
       - name: Test
         run: dotnet test --no-restore --verbosity normal
+      - name: Stop containers
+        run: docker-compose -f docker-compose.yml down
