@@ -11,5 +11,5 @@ public class SchoolDbContext : DbContext
    
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseNpgsql("Host=localhost;Database=SchoolDB;Username=postgres;Password=password");
+        => optionsBuilder.UseNpgsql("Host=localhost;Port=5436;Database=SchoolDB;Username=postgres;Password=password");
 }
