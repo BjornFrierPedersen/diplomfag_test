@@ -1,7 +1,7 @@
-name: Issue Report
-description: File an issue report
+name: Bug Report
+description: File a bug report
 title: "[Bug] "
-labels: ["triage"]
+labels: ["bug","triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -19,28 +19,38 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
       label: What happened?
       description: Be as detailed as possible
-      placeholder: Tell us what you see!
-      value: "**General description**\n\n**What did you expect to happen?**\n\n**What actually happened?**\n\n**Additional information**"
+      placeholder: Tell us what you saw!
+      value: ""
     validations:
       required: true
-  - type: dropdown
-    id: issue-type
+  - type: textarea
+    id: expected-action
     attributes:
-      label: Issue Type
-      description: What type of issue are you reporting?
-      options:
-        - Bug
-        - Feature Request
-        - Enhancement
-        - Question
-        - Other
-      default: 0
+      label: What did you expect to happen?
+      placeholder: Tell us what you wanted to see!
+      value: ""
     validations:
       required: true
+  - type: textarea
+    id: actual-action
+    attributes:
+      label: What actually happened?
+      placeholder: Tell us what happened!
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: more-info
+    attributes:
+      label: Anything else?
+      placeholder: Tell us what else happened!
+      value: ""
+    validations:
+      required: false
   - type: dropdown
     id: Projects
     attributes:
