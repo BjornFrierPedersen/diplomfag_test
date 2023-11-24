@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Issue Report
+description: File an issue report
+title: ""
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
@@ -22,32 +22,35 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Be as detailed as possible
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "**General description**\n\n**What did you expect to happen?**\n\n**What actually happened?**\n\n**Additional information**"
     validations:
       required: true
-  - type: dropdown
-    id: version
+   - type: dropdown
+    id: issue-type
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Issue Type
+      description: What type of issue are you reporting?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Bug
+        - Feature Request
+        - Enhancement
+        - Question
+        - Other
       default: 0
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: Projects
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What projects are you seeing the problem in?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Uge 1
+        - Uge 2
+        - Uge 3
+        - School Application
   - type: textarea
     id: logs
     attributes:
@@ -58,7 +61,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://docs.google.com/document/d/1bgT_GJBBHu8I8iy_JQrROY5XruS-kQ85/edit?usp=drive_link&ouid=100614270477433152423&rtpof=true&sd=true)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
