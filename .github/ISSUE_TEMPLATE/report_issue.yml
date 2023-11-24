@@ -1,7 +1,7 @@
 name: Issue Report
 description: File an issue report
 title: ""
-labels: ["bug", "triage"]
+labels: ["triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -27,7 +27,7 @@ body:
       value: "**General description**\n\n**What did you expect to happen?**\n\n**What actually happened?**\n\n**Additional information**"
     validations:
       required: true
-   - type: dropdown
+  - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
