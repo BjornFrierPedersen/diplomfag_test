@@ -1,6 +1,6 @@
 name: Issue Report
 description: File an issue report
-title: ""
+title: "[Bug] "
 labels: ["triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
