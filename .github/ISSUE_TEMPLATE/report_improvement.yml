@@ -1,7 +1,7 @@
 name: Improvement Report
 description: Request an improvement report
 title: "[Improvement] "
-labels: ["improvement"]
+labels: ["enhancement"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
